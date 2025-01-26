@@ -1,0 +1,12 @@
+{
+    "config": {
+      "step": {
+        "user": {
+          "data": {
+            "console_ip": "IP",
+            "access_token": "Token"
+          }
+        }
+      }
+    }
+}

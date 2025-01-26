@@ -25,7 +25,7 @@ class PollingCoordinator(DataUpdateCoordinator):
             hass,
             _LOGGER,
             name="Unifi Access polling coordinator",
-            update_interval=timedelta(seconds=3),
+            update_interval=timedelta(seconds=1),
         )
 
         self.door_client = UnifiAccessDoorClient(ip, token)

@@ -9,11 +9,11 @@ class UnifiAccessApiClient:
         self.ip = ip
         self.token = token
 
-        self.host = "https://" + ip + ":" + PORT
+        self.host = "https://" + ip + ":" + str(PORT)
         self.headers = {"Authorization": "Bearer " + token}
 
     def endpoint(self, path: str):
         return self.host + path
 
     def get(self, path: str):
-        return requests.get(self.endpoint(path), headers=self.headers)
+        return requests.get(self.endpoint(path), headers=self.headers, verify=False)

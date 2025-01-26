@@ -5,3 +5,5 @@ MANUFACTURER = "Ubiquiti"
 
 CONF_CONSOLE_IP = "console_ip"
 CONF_TOKEN = "access_token"
+
+DATA_COORDINATOR = "coordinator"

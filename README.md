@@ -1,7 +1,7 @@
 # hassio-unifi-access
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
-[![Validate with hassfest](https://github.com/Patrick762/hassio-unifi-access/actions/workflows/hassfest_validation.yml/badge.svg)](https://github.com/Patrick762/hassio-solvis-modbus/actions/workflows/hassfest_validation.yml)
-[![HACS Action](https://github.com/Patrick762/hassio-unifi-access/actions/workflows/HACS.yml/badge.svg)](https://github.com/Patrick762/hassio-solvis-modbus/actions/workflows/HACS.yml)
+[![Validate with hassfest](https://github.com/Patrick762/hassio-unifi-access/actions/workflows/hassfest_validation.yml/badge.svg)](https://github.com/Patrick762/hassio-unifi-access/actions/workflows/hassfest_validation.yml)
+[![HACS Action](https://github.com/Patrick762/hassio-unifi-access/actions/workflows/HACS.yml/badge.svg)](https://github.com/Patrick762/hassio-unifi-access/actions/workflows/HACS.yml)
 
 Unifi Access Integration for Home Assistant
 

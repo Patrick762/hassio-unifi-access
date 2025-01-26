@@ -3,7 +3,7 @@
     "name": "Unifi Access",
     "codeowners": ["@Patrick762"],
     "config_flow": true,
-    "dependencies": [],
+    "dependencies": ["requests"],
     "documentation": "https://github.com/Patrick762/hassio-unifi-access",
     "integration_type": "device",
     "iot_class": "local_polling",
